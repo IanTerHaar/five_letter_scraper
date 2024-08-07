@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         String inputFilePath = "src\\words.txt";
-        String outputFilePath = "output.txt";
+        String outputFilePath = "5letters.txt";
 
         try (
                 BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
